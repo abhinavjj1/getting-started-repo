@@ -1,4 +1,4 @@
 #!/bin/bash
 
 docker pull registry.transplace.com/tplace/openshift-client:latest
-docker container run --user root registry.transplace.com/tplace/openshift-client:latest ./tag-to-image-stream.sh
+docker container run --user root registry.transplace.com/tplace/openshift-client:latest bash /tag-to-image-stream.sh
